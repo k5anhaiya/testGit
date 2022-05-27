@@ -15,16 +15,16 @@ public class mainfile5
         fr.setDefaultCloseOperation(fr.EXIT_ON_CLOSE);
         fr.setLayout(new FlowLayout(FlowLayout.CENTER,150,100));
         fr.add(la);
-        la.setFont("lucida calligraphy",3,25);
+        setTime();
 
         fr.setVisible(true);
     }
     public void setTime()
     {
-
+        la.setFont(new Font("lucida calligraphy",Font.BOLD,25));
     }
     public static void main(String[] args) 
     {
-        
+        new mainfile5()
     }    
 }
