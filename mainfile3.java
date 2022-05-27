@@ -25,7 +25,6 @@ public class mainfile3
         label.setBounds(50,500,400,50);
         label.setForeground(java.awt.Color.red);
         label.setFont(new Font("arial",3,25));
-
         frame.setVisible(true);
     }
     public static void main(String[] args) 
